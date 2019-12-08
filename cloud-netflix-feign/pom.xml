@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.zw.smart</groupId>
+        <artifactId>cloud-alibaba</artifactId>
+        <version>1.0.0.RELEASE</version>
+    </parent>
+    <artifactId>cloud-netflix-feign</artifactId>
+    <version>1.0.0.RELEASE</version>
+    <name>cloud-netflix-feign</name>
+    <description>HTTP请求</description>
+    <packaging>pom</packaging>
+    <modules>
+        <module>feign-example-01</module>
+        <module>feign-example-02</module>
+        <module>feign-example-03</module>
+        <!--公共API-->
+        <module>feign-api-example</module>
+        <!--测试服务-->
+        <module>test-feign-provider</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+    </dependencies>
+</project>

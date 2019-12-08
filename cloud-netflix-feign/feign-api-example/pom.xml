@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.zw.smart</groupId>
+        <artifactId>cloud-netflix-feign</artifactId>
+        <version>1.0.0.RELEASE</version>
+    </parent>
+    <artifactId>feign-api-example</artifactId>
+    <version>1.0.0-RELEASE</version>
+    <name>feign-api-example</name>
+    <description>抽取公共接口</description>
+
+</project>

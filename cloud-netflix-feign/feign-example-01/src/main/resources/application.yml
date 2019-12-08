@@ -1,0 +1,16 @@
+server:
+  port: 8091
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.23.190.71:8848
+  profiles:
+    active: dev
+  application:
+    name: feign-example-01
+
+
+
+

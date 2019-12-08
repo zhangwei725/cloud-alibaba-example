@@ -1,0 +1,6 @@
+# Project exclude paths
+/cloud-netflix-feign/feign-api-example/target/
+/cloud-netflix-feign/feign-example-01/target/
+/cloud-netflix-feign/target/
+/cloud-netflix-feign/test-feign-provider/target/
+/cloud-netflix-ribbon/ribbon-example/target/

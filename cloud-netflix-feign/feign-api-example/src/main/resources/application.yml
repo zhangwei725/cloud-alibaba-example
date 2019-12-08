@@ -1,0 +1,7 @@
+server:
+  port: 8180
+spring:
+  application:
+    name: test-feign-provider
+  profiles:
+    active: dev
